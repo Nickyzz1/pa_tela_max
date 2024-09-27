@@ -4,6 +4,8 @@ import perfil from "../assets/img/perfil-of.png"
 import imgBg from "@/assets/img/warriorof1.jpg"
 import title from "@/assets/img/maxintro.png"
 import logo from "@/assets/img/logo.png"
+import serie1 from "@/assets/img/comoeueraantesdevc.jpg"
+import serie2 from "@/assets/img/friends.webp"
 
 import {Menu} from "@/components/menu"
 import {Desc} from "@/components/desc"
@@ -27,7 +29,12 @@ export const Main= ({} :
         mid: "bg-blue-950 absolute bottom-20 w-full h-1/8 text-white z-20 shadow-[0_2px_90px_86px_#172554]",
         titleSerie:"absolute bottom-52 z-20",
         bolinha: "h-2 w-2 bg-white rounded-full",
-        box:"flex flex-row justify-center gap-3"
+        box:"flex flex-row justify-center gap-3",
+        content: "flex flex-row justify-center gap-24",
+        img: "w-20 object-cover",
+        fy: "flex pl-4",
+        footer:"flex bottom-0",
+        all: "h-full"
 
     }
 
@@ -47,7 +54,7 @@ export const Main= ({} :
 
             </header>
 
-            <main>
+            <main className={style.all}>
                     <div className={style.imgBg}>
                         <Image src={imgBg} alt="" />
                     </div>
@@ -70,9 +77,19 @@ export const Main= ({} :
                                 <div className={style.bolinha}></div>
                                 <div className={style.bolinha}></div>
                             </div>
+
+                            <p className={style.fy} >For you</p>
                     </div>
 
-                    <div>
+                    <div className={style.content}>
+
+                            <Image className={style.img} src={serie1} alt=""/>
+                            <Image className={style.img} src={serie2} alt=""/>
+
+
+                    </div>
+
+                    <div className={style.footer}>
                         <Footer/>
                     </div>
             </main>

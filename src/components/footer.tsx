@@ -18,7 +18,7 @@ export const Footer = ({} :
     {
         p:"text-center text-white mx-16 text-xs",
         img: "w-8 z-100",
-        footer: "flex-row flex bg-transp absolute bottom-0 bg-black w-full bootom-0 absolute z-50 justify-evenly p-4"
+        footer: "flex-row flex bg-transp absolute bottom-0 bg-black w-full z-50 justify-evenly p-4 "
     }
 
     return(
