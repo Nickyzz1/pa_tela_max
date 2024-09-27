@@ -6,6 +6,7 @@ import title from "@/assets/img/maxintro.png"
 import logo from "@/assets/img/logo.png"
 import serie1 from "@/assets/img/comoeueraantesdevc.jpg"
 import serie2 from "@/assets/img/friends.webp"
+import desk from "@/assets/img/desk.avif"
 
 import {Menu} from "@/components/menu"
 import {Desc} from "@/components/desc"
@@ -21,17 +22,17 @@ export const Main= ({} :
     {
         head:"bg-black text-white flex flex-row justify-between",
         menu:"bg-black text-white flex flex-row justify-between shadow-[0_5px_34px_23px_#171717] absolute w-full",
-        perfil: "w-7 cursor-pointer m-2 mr-4",
+        perfil: "w-7 cursor-pointer m-2 mr-4 z-50",
         logo: "w-14 cursor-pointer m-2 z-50",
         tilte: "m-2",
         imgBg: "flex w-full auto object-cover",
-        desc: "bg-black absolute bottom-16 w-full h-1/4 text-white shadow-[0_2px_50px_53px_#171717] z-10",
-        mid: "bg-blue-950 absolute bottom-20 w-full h-1/8 text-white z-20 shadow-[0_2px_90px_86px_#172554]",
+        desc: "bg-black absolute bottom-16 w-full h-1/4 text-white shadow-[0_2px_50px_53px_#171717] z-11",
+        mid: "bg-blue-950 absolute bottom-20 w-full h-1/8 text-white z-10 shadow-[0_2px_90px_86px_#172554]",
         titleSerie:"absolute bottom-52 z-20",
         bolinha: "h-2 w-2 bg-white rounded-full",
         box:"flex flex-row justify-center gap-3",
         content: "flex flex-row justify-center gap-24",
-        img: "w-20 object-cover",
+        img: "w-24 object-cover",
         fy: "flex pl-4",
         footer:"flex bottom-0",
         all: "h-full"
