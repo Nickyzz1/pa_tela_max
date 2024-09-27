@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --white: #ffffff;
+  --black: #171717;
+  --transp: #17171749;
+}
+
+body {
+  background-color: black;
+}
+
